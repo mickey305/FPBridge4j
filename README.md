@@ -26,7 +26,7 @@ The following table shows status of external CI service.
 
 # Features
 
-![Library Version](https://img.shields.io/badge/FPBridge4j%20library-v0.5.0-green.svg?style=flat)
+![Library Version](https://img.shields.io/badge/FPBridge4j%20library-v0.5.1-green.svg?style=flat)
 ![Java Version](https://img.shields.io/badge/JDK-1.8-yellowgreen.svg?style=flat)
 [![Apache License](http://img.shields.io/badge/license-Apache2.0-blue.svg?style=flat)](LICENSE)
 

@@ -76,6 +76,7 @@ public class Posix2AclBindDefaultImplementor {
                 entrySet.add(AclEntryPermission.EXECUTE);
                 entrySet.add(AclEntryPermission.DELETE_CHILD);
                 entrySet.add(AclEntryPermission.SYNCHRONIZE);
+                break;
             case "rwx":
                 entrySet.add(AclEntryPermission.READ_ACL);
                 entrySet.add(AclEntryPermission.READ_ATTRIBUTES);
@@ -88,6 +89,7 @@ public class Posix2AclBindDefaultImplementor {
                 entrySet.add(AclEntryPermission.EXECUTE);
                 entrySet.add(AclEntryPermission.DELETE_CHILD);
                 entrySet.add(AclEntryPermission.SYNCHRONIZE);
+                break;
             default:
                 break;
         }
