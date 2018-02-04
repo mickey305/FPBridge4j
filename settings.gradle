@@ -1,0 +1,4 @@
+rootProject.name = 'FPBridge4j'
+include 'FPBridge'
+include 'Sample'
+
