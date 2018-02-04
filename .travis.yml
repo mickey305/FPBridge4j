@@ -1,0 +1,11 @@
+language: groovy
+before_install:
+ - chmod +x gradlew
+ - chmod +x .test.sh
+branches:
+  only:
+    - master
+    - develop
+script: ./.test.sh
+jdk:
+  - oraclejdk8

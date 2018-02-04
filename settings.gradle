@@ -1,4 +1,5 @@
 rootProject.name = 'FPBridge4j'
 include 'FPBridge'
-include 'Sample'
+if (!System.env.JITPACK)
+    include 'Sample'
 
