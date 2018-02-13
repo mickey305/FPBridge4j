@@ -1,14 +1,27 @@
 group 'com.mickey305'
-version '0.5.1'
+version '0.7.0'
 
 apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'com.novoda.bintray-release'
 
 sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+publish {
+    userOrg = 'mickey305'
+    groupId = this.getGroup()
+    artifactId = 'FPBridge4j'
+    version = this.getVersion()
+    desc = 'The "FPBridge" is a simple Filesystem-Permission-API wrapper for Java.'
+    website = 'https://github.com/mickey305/FPBridge4j'
+    licences = ['Apache-2.0']
 }

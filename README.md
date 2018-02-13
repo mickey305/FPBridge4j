@@ -8,7 +8,9 @@
 # Overview
 -->
 # FPBridge4j
+
 `FPBridge4j` is a simple Filesystem-Permission-API wrapper for Java.
+
 The following table shows status of external CI service.
 
 | | branch | travis ci | AppVeyor |
@@ -20,13 +22,11 @@ The following table shows status of external CI service.
 | Service Name | Link |
 |:---|:---|
 | JitPack | [![](https://jitpack.io/v/mickey305/FPBridge4j.svg)](https://jitpack.io/#mickey305/FPBridge4j) |
-<!--
 | Bintray | [![Download](https://api.bintray.com/packages/mickey305/maven/FPBridge4j/images/download.svg)](https://bintray.com/mickey305/maven/FPBridge4j/_latestVersion) |
--->
 
 # Features
 
-![Library Version](https://img.shields.io/badge/FPBridge4j%20library-v0.5.1-green.svg?style=flat)
+![Library Version](https://img.shields.io/badge/FPBridge4j%20library-v0.7.0-green.svg?style=flat)
 ![Java Version](https://img.shields.io/badge/JDK-1.8-yellowgreen.svg?style=flat)
 [![Apache License](http://img.shields.io/badge/license-Apache2.0-blue.svg?style=flat)](LICENSE)
 
@@ -47,4 +47,5 @@ The following table shows status of external CI service.
 - Gradle `>= 3.5-rc-2` (in the case of gradle project)
 
 # <a name="history"> History
- * version 0.5.0 deploy - 2018-02-14
+ * version 0.7.0 deploy - 2018-02-14
+ * version 0.5.0 deploy - 2018-02-04
