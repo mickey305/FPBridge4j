@@ -44,7 +44,7 @@ The following table shows status of external CI service.
 
 # <a name="requirements"> Requirements
 - JDK `>= 1.8`
-- Gradle `>= 3.5-rc-2` (in the case of gradle project)
+- Gradle `>= 4.2.1` (in the case of gradle project)
 
 # <a name="history"> History
  * version 0.7.0 deploy - 2018-02-14
